@@ -279,6 +279,12 @@ input {
 .item_bottom .fr{
     line-height: .52rem;
 }
+.item_bottom .fr span{
+    display: inline-block;
+    width: .3rem;
+    text-align: center;
+    vertical-align: text-top;
+}
 .cart_box{
 
 }
@@ -300,7 +306,7 @@ width: 9.83rem;
 .good_cart .fl{
     color: #ffffff;
     margin-left: 2.26rem;
-    margin-top: .9rem;
+    margin-top: .95rem;
 }
 .good_cart h2{
     font-size: .66rem;
@@ -328,7 +334,7 @@ width: 9.83rem;
     left: 0;
     right: 0;
     width: 100%;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
     padding-left: .48rem;
     padding-right: .26rem;
     background: #ffffff;
@@ -336,10 +342,16 @@ width: 9.83rem;
 }
 .cart_list_top img{
     width: .84rem;
+    margin-top: -.34rem;
 }
 .cart_list_top{
     color: #c52128;
+
+}
+.cart_list_top h2{
     font-size: .4rem;
+    margin-top: .22rem;
+    margin-left: .1rem;
 }
 .cart_list_top span{
     font-size: .26rem;
@@ -347,7 +359,111 @@ width: 9.83rem;
 .cart_list_top a{
     font-size: .34rem;
     color: #c52128;
+    margin-top: .3rem;
+}
+.cart_list ul{
+    margin-top: .2rem;
 }
 .cart_list li{
     font-size: .32rem;
+    padding: .2rem 0;
+    line-height: .52rem;
 }
+.cart_goods_title{
+    width: 4.6rem;
+    margin-right: .5rem;
+}
+.cart_list .item_bottom{
+    padding: 0;
+}
+.bg{
+    background: #fee9c4;
+}
+.goods_details{
+    padding: .53rem .266rem;
+}
+.goods_details .item{
+    width: 100%;
+    overflow: hidden;
+    float: initial;
+}
+.goods_details .item>img{
+    width: 100%;
+    height: 9.46rem;
+}
+.goods_details .item h2{
+    font-size: .4rem;
+    line-height: 1.6;
+}
+.goods_details .item_bottom{
+    font-size: .34rem ;
+    padding-top: 0;
+}
+.goods_details .item_bottom i{
+    font-size: .77rem;
+}
+.goods_details .item_bottom .fr {
+    margin-top: .3rem;
+}
+.title-img{
+    text-align: center;
+    padding: .6rem 0;
+}
+.title-img img{
+    height: .69rem;
+}
+.content{
+    border-radius: .1rem;
+    background: #ffffff;
+    padding: .26rem .33rem;
+    overflow: hidden;
+}
+ .duihuan .content p{
+    margin-top: .4rem;
+     line-height: 1.6;
+}
+ .duihuan .content p:first-child{
+    margin-top: 0;
+}
+.xiangqing .content img{
+    width: 100%;
+}
+.rules{
+    padding: 0 .4rem .4rem;
+}
+.w100{
+    width: 100%;
+}
+.pb_270{
+    padding-bottom: 3.6rem;
+}
+.tuijian{
+    text-align: center;
+}
+.tuijian>img{
+    width: 1.65rem;
+    margin-top: 1.2rem;
+}
+.tuijian h2{
+    font-size: .53rem;
+    line-height: 2;
+}
+.tuijian p{
+    font-size: .35rem;
+    color: #c81b23;
+}
+.tuijian .xiazai img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
