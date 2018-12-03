@@ -1,0 +1,353 @@
+
+html, body {
+    height: 100%
+}
+
+html {
+    font-family: '微软雅黑', Helvetica, STHeiTi, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+    font-size: 75px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    -webkit-overflow-scrolling: touch;
+    font-size: 0.32rem;
+}
+
+em {
+    font-style: normal
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display: block
+}
+
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+a {
+    background: transparent;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    color: #3e3a39
+}
+
+a:active {
+    background: transparent
+}
+
+img {
+    border: 0;
+    vertical-align: middle
+}
+
+body, button, input, select, textarea, h1, h2, h3, h4, h5, p, form, blockquote, ul, ol, li, dl, dd {
+    margin: 0
+}
+
+button {
+    overflow: visible
+}
+
+button, select {
+    text-transform: none
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration, input[type=text] {
+    -webkit-appearance: none
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+ul, ol, li, dl, dd, td, th {
+    padding: 0
+}
+
+ul, ol {
+    list-style: none
+}
+
+h1, h2, h3 {
+    font-weight: normal
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #ccc;
+    font-family: '微软雅黑'
+}
+
+input[type=button], input[type=submit], input[type=file], button {
+    cursor: pointer;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.min-h100 {
+    /*     min-height: 100%; */
+    min-height: 480px
+}
+.display1{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.display2{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.wrapper {
+    height: 100%;
+    width: 100%;
+    background: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: relative;
+}
+.index_top{
+    height: 10rem;
+    width: 100%;
+    background: url("../images/index_bg.jpg") no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.index_nav_btn{
+    margin-left: 1.33rem;
+    margin-top: 60%;
+}
+.index_nav_btn a{
+    float: left;
+    display: block;
+    width: 2.4rem;
+    margin-right:.2rem ;
+}
+.index_top  img{
+    width: 100%;
+}
+.goDetails{
+    width: 2.56rem;
+    display: block;
+    margin: 1rem auto 0;
+}
+.index_line{
+    height: .07rem;
+    background: url("../images/border.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.index_nav a{
+    display: block;
+    float: left;
+    width: 2rem;
+    height: .66rem;
+    line-height: .66rem;
+    text-align: center;
+    color: #898989;
+    font-size: .38rem;
+}
+.index_nav a i{
+    display: none;
+}
+.index_nav a.active{
+    color: #ce1b25;
+}
+.index_nav a.active i{
+    display: inline-block;
+}
+.index_nav a img{
+    width: .26rem ;
+}
+.index_box{
+    background: #fee9c4;
+    overflow: hidden;
+
+}
+.index_title{
+    width: 4.26rem;
+    height: .69rem;
+    line-height: .65rem;
+    background: url("../images/index_title.png") no-repeat;
+    background-size: 100% 100%;
+    margin: .33rem auto;
+    text-align: center ;
+    color: #ffffff;
+    font-size:.35rem ;
+    letter-spacing: 6px;
+    padding-left: 9px;
+}
+.index_nav_box{
+
+}
+.index_box{
+    padding: .26rem;
+    padding-bottom: 3rem;
+}
+.index_box .item:nth-child(2n){
+    margin-right: .4rem;
+}
+.item{
+    width: 4.53rem;
+    background: #ffffff;
+    border-radius: .1rem;
+    overflow: hidden;
+    float: left;
+    margin-bottom:  .26rem;;
+}
+.item a>img{
+    width: 100%;
+    height:4.53rem ;
+}
+.item h2{
+    font-weight: bold;
+    font-size: 0.32rem;
+    padding: .13rem .2rem;
+}
+.item_bottom{
+    color: #595757;
+    font-size:.27rem ;
+    padding: .13rem .2rem;
+}
+.red{
+    color: #ff0000;
+}
+.item_bottom i{
+    font-size: .4rem;
+    font-style: normal;
+}
+.item_bottom img{
+    width: .52rem;
+}
+.item_bottom .fr{
+    line-height: .52rem;
+}
+.cart_box{
+
+}
+.cart_box .no_goods, .cart_box .good_cart{
+width: 9.83rem;
+    position: fixed;
+    bottom: .25rem;
+    left: .08rem;
+    z-index: 999;
+}
+.cart_box .no_goods img{
+    width: 100%;
+}
+.cart_box .good_cart{
+    background: url("../images/cart_bg.png") no-repeat;
+    height: 2.56rem;
+    background-size: 100% 100%;
+}
+.good_cart .fl{
+    color: #ffffff;
+    margin-left: 2.26rem;
+    margin-top: .9rem;
+}
+.good_cart h2{
+    font-size: .66rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.good_cart p {
+    font-size: .26rem;
+}
+.jiesuan{
+    font-size: .4rem;
+    color: #c52128;
+    font-weight: bold;
+    width: 2.6rem;
+    display: inline-block;
+    height: 1.4rem;
+    line-height: 1.4rem;
+    text-align: center;
+    margin-right: .3rem;
+    margin-top: .9rem;
+}
+.cart_list{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding-bottom: 3rem;
+    padding-left: .48rem;
+    padding-right: .26rem;
+    background: #ffffff;
+    z-index: 1;
+}
+.cart_list_top img{
+    width: .84rem;
+}
+.cart_list_top{
+    color: #c52128;
+    font-size: .4rem;
+}
+.cart_list_top span{
+    font-size: .26rem;
+}
+.cart_list_top a{
+    font-size: .34rem;
+    color: #c52128;
+}
+.cart_list li{
+    font-size: .32rem;
+}
